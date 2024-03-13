@@ -3,7 +3,7 @@
 
 
 <div align="center">
-  <img src="assets/Framework.PNG" width="100%" higth="100%">
+  <img src="assets/Logo.PNG" width="100%" higth="100%">
   <h3 align="center"><strong>ECSNet: Spatio-temporal feature learning for event camera [TCSVT '22] </strong></h3>
     <p align="center">
     <a>Zhiwen Chen</a><sup>1</sup>&nbsp;&nbsp;
@@ -21,6 +21,10 @@
 
 
 ## About
+
+<div align="center">
+  <img src="assets/Framework.PNG" width="80%" higth="80%">
+</div>
 
 ## Getting Started
 ### Installation
