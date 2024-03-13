@@ -1,4 +1,7 @@
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/segment-any-events-via-weighted-adaptation-of/event-based-object-segmentation-on-rgbe-seg)](https://paperswithcode.com/sota/event-based-object-segmentation-on-rgbe-seg)
+
+
 <div align="center">
   <img src="assets/Framework.PNG" width="100%" higth="100%">
   <h3 align="center"><strong>ECSNet: Spatio-temporal feature learning for event camera [TCSVT '22] </strong></h3>
