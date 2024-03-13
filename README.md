@@ -46,7 +46,7 @@ bash install_ecsnet.sh
 ### Data Preparation
 In this work, we evaluate our method on a wide range of event-based classification datasets, such as [N-MNIST](https://www.garrickorchard.com/datasets/n-mnist), [N-Caltech101](https://www.garrickorchard.com/datasets/n-caltech101), [N-Cars](https://www.prophesee.ai/2018/03/13/dataset-n-cars/), [CIFAR10-DVS](https://figshare.com/articles/dataset/CIFAR10-DVS_New/4724671/2) datasets and so on. Please download these data with the link below and put in ./data.
 <div align="center">
-  <img src="assets/Event.PNG" width="100%" higth="100%">
+  <img src="assets/Event.PNG" width="100%" higth="80%">
 </div>
 
 ## Training
@@ -58,6 +58,13 @@ python ./train.py
 ```
 python ./test.py
 ```
+
+## Performance Evaluation
+<div align="center">
+  <img src="assets/Performance.PNG" width=60%" higth="40%">
+</div>
+
+## Computation Efficiency
 
 ## Acknowledgments
 Thanks to [N-MNIST](https://www.garrickorchard.com/datasets/n-mnist), [N-Caltech101](https://www.garrickorchard.com/datasets/n-caltech101), [N-Cars](https://www.prophesee.ai/2018/03/13/dataset-n-cars/), [CIFAR10-DVS](https://figshare.com/articles/dataset/CIFAR10-DVS_New/4724671/2) datasets, [PoimtMLP](https://github.com/ma-xu/pointmlp-pytorch) and [NVS2Graph](https://github.com/PIX2NVS/NVS2Graph) projects.
