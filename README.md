@@ -1,5 +1,8 @@
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/segment-any-events-via-weighted-adaptation-of/event-based-object-segmentation-on-rgbe-seg)](https://paperswithcode.com/sota/event-based-object-segmentation-on-rgbe-seg)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ecsnet-spatio-temporal-feature-learning-for/event-data-classification-on-n-caltech-101)](https://paperswithcode.com/sota/event-data-classification-on-n-caltech-101)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ecsnet-spatio-temporal-feature-learning-for/event-data-classification-on-n-cars)](https://paperswithcode.com/sota/event-data-classification-on-n-cars)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ecsnet-spatio-temporal-feature-learning-for/event-data-classification-on-cifar10-dvs-1)](https://paperswithcode.com/sota/event-data-classification-on-cifar10-dvs-1)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ecsnet-spatio-temporal-feature-learning-for/gesture-generation-on-dvs128-gesture)](https://paperswithcode.com/sota/gesture-generation-on-dvs128-gesture)
 
 
 <div align="center">
