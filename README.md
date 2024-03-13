@@ -17,8 +17,21 @@
 
 
 
+## About
 
+## Getting Started
+### Installation
+Clone the repository locally:
+```
+pip install git+https://github.com/happychenpipi/ECSNet.git
+```
 
+Create and activate a conda environment and install the required packages:
+```
+conda create -n ecsnet python=3.7
+conda activate ecsnet
+bash install_ecsnet.sh
+```
 
 ## Acknowledgments
 Thanks to ... datasets, ... projects.
