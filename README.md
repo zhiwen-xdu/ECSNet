@@ -24,7 +24,7 @@
 
 
 ## About
-
+The neuromorphic event cameras can efficiently sense the latent geometric structures and motion clues of a scene by generating asynchronous and sparse event signals. Due to the irregular layout of the event signals, how to leverage their plentiful spatio-temporal information for recognition tasks remains a significant challenge. Existing methods tend to treat events as dense image-like or point-serie representations. However, they either suffer from severe destruction on the sparsity of event data or fail to encode robust spatial cues. To fully exploit their inherent sparsity with reconciling the spatio-temporal information, we introduce a compact event representation, namely 2D-1T event cloud sequence (2D-1T ECS). We couple this representation with a novel light-weight spatiotemporal learning framework (ECSNet) that accommodates both object classification and action recognition tasks. The core of our framework is a hierarchical spatial relation module. Equipped with specially designed surface-event-based sampling unit and local event normalization unit to enhance the inter-event relation encoding, this module learns robust geometric features from the 2D event clouds. And we propose a motion attention module for efficiently capturing long-term temporal context evolving with the 1T cloud sequence. Empirically, the experiments show that our framework achieves par or even better state-of-the-art performance. Importantly, our approach cooperates well with the sparsity of event data without any sophisticated operations, hence leading to low computational costs and prominent inference speeds.
 <div align="center">
   <img src="assets/Framework.PNG" width="80%" higth="80%">
 </div>
@@ -44,16 +44,21 @@ bash install_ecsnet.sh
 ```
 
 ### Data Preparation
+In this work, we evaluate our method on a wide range of event-based classification datasets, such as [N-MNIST](https://www.garrickorchard.com/datasets/n-mnist), [N-Caltech101](https://www.garrickorchard.com/datasets/n-caltech101), [N-Cars](https://www.prophesee.ai/2018/03/13/dataset-n-cars/), [CIFAR10-DVS](https://figshare.com/articles/dataset/CIFAR10-DVS_New/4724671/2) datasets and so on. Please download these data with the link below and put in ./data.
 
 
 ## Training
-
-## Pre-trained Model
+```
+python ./train.py
+```
 
 ## Evaluation
+```
+python ./test.py
+```
 
 ## Acknowledgments
-Thanks to ... datasets, ... projects.
+Thanks to [N-MNIST](https://www.garrickorchard.com/datasets/n-mnist), [N-Caltech101](https://www.garrickorchard.com/datasets/n-caltech101), [N-Cars](https://www.prophesee.ai/2018/03/13/dataset-n-cars/), [CIFAR10-DVS](https://figshare.com/articles/dataset/CIFAR10-DVS_New/4724671/2) datasets, [PoimtMLP](https://github.com/ma-xu/pointmlp-pytorch) and [NVS2Graph](https://github.com/PIX2NVS/NVS2Graph) projects.
 
 ## Contact
 Feedbacks and comments are welcome! Feel free to contact us via [zhiwen.chen@stu.xidian.edu.cn](zhiwen.chen@stu.xidian.edu.cn). 
