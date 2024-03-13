@@ -49,22 +49,21 @@ In this work, we evaluate our method on a wide range of event-based classificati
   <img src="assets/Event.PNG" width="100%" higth="80%">
 </div>
 
-## Training
+## Training & Evaluation
 ```
 python ./train.py
-```
-
-## Evaluation
-```
 python ./test.py
 ```
 
-## Performance Evaluation
+## Performance Evaluation & Computation Efficiency
 <div align="center">
-  <img src="assets/Performance.PNG" width=60%" higth="40%">
+  <img src="assets/Performance.PNG" width=60%" higth="30%">
+</div>
+<div align="center">
+  <img src="assets/Efficiency.PNG" width=40%" higth="20%">
 </div>
 
-## Computation Efficiency
+
 
 ## Acknowledgments
 Thanks to [N-MNIST](https://www.garrickorchard.com/datasets/n-mnist), [N-Caltech101](https://www.garrickorchard.com/datasets/n-caltech101), [N-Cars](https://www.prophesee.ai/2018/03/13/dataset-n-cars/), [CIFAR10-DVS](https://figshare.com/articles/dataset/CIFAR10-DVS_New/4724671/2) datasets, [PoimtMLP](https://github.com/ma-xu/pointmlp-pytorch) and [NVS2Graph](https://github.com/PIX2NVS/NVS2Graph) projects.
