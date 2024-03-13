@@ -33,6 +33,15 @@ conda activate ecsnet
 bash install_ecsnet.sh
 ```
 
+### Data Preparation
+
+
+## Training
+
+## Pre-trained Model
+
+## Evaluation
+
 ## Acknowledgments
 Thanks to ... datasets, ... projects.
 
